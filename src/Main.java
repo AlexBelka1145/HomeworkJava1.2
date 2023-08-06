@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int startingamount = 300; // Начальная сумма на счету
-        int depositamount = 1300; // Сумма пополнения
+        int startingAmount = 300; // Начальная сумма на счету
+        int depositAmount = 1300; // Сумма пополнения
 
         int bonus;
-        if (depositamount > 1000) {
-            bonus = depositamount / 100;
-        } else  {
+        if (depositAmount > 1000) {
+            bonus = depositAmount / 100;
+        } else {
             bonus = 0;
         }
 
